@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link type="image/png" href="/favicon-32x32.png" rel="icon" sizes="32x32" />
+    <link type="image/png" href="/favicon-16x16.png" rel="icon" sizes="16x16" />
+    <title>Louper</title>
+    <link href="build/styles.css" rel="stylesheet" />
+</head>
+
+<body class="bg-black text-white font-NeueHelvetica">
+    <div class="max-w-screen-lg container mx-auto border-b border-blue-500 pb-16">
+        <nav class="flex flex-wrap items-center justify-between p-4 container mx-auto relative">
+            <a class="w-auto" href="index.html">
+                <img src="./images/louper-logo.png" alt="">
+            </a>
+            <div onclick="togle()" class="space-y-1 cursor-pointer lg:hidden px-4">
+                <div style="height: 3px;" class="bg-blue-500 w-6"></div>
+                <div style="height: 3px;" class="bg-blue-500 w-6"></div>
+                <div style="height: 3px;" class="bg-blue-500 w-6"></div>
+            </div>
+            <div id="nav" class="navbar-menu -lg:absolute lg:block -lg:z-50 -lg:left-0 -lg:top-0 lg:text-right -lg:w-full -lg:bg-gray-900 -lg:py-4 -lg:mt-16">
+                <a class="block lg:inline-block -lg:px-4 -lg:w-full -lg:hover:bg-gray-800 -lg:py-2 lg:mt-0 lg:mr-10 text-white hover:text-blue-500" href="#">Features</a>
+                <a class="block lg:inline-block -lg:px-4 -lg:w-full -lg:hover:bg-gray-800 -lg:py-2 lg:mt-0 lg:mr-10 text-white hover:text-blue-500" href="#">Tech Specs</a>
+                <a class="block lg:inline-block -lg:px-4 -lg:w-full -lg:hover:bg-gray-800 -lg:py-2 lg:mt-0 lg:mr-10 text-white hover:text-blue-500" href="contact.html">Contact</a>
+                <a class="block lg:inline-block -lg:px-4 -lg:w-full -lg:hover:bg-gray-800 -lg:py-2 lg:mt-0 lg:mr-10 text-white hover:text-blue-500" href="signup.html">Sign up</a>
+                <a class="block lg:inline-block -lg:px-4 -lg:w-full -lg:hover:bg-gray-800 -lg:py-2 lg:mt-0 lg:mr-10 text-white hover:text-blue-500 lg:border lg:rounded lg:px-1 lg:hover:border-blue-500" href="signup.html">Log in</a>
+            </div>
+        </nav>
+        <div class="mt-8 container mx-auto px-4">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl leading-none font-semibold">Speak to the<br/>Louper Team</h1>
+            <p class="mt-8">Any questions? Enter your details below<br class="-lg:hidden"/> and we’ll get back to you very soon.</p>
+            <div class="lg:w-1/2 mx-auto mt-8 space-y-3">
+                <div>
+                    <label class="text-gray-500">Name</label>
+                    <input type="text" class="border border-blue-500 rounded px-2 py-1 bg-black text-white w-full">
+                </div>
+                <div>
+                    <label class="text-gray-500">Email</label>
+                    <input type="text" class="border border-blue-500 rounded px-2 py-1 bg-black text-white w-full">
+                </div>
+                <div>
+                    <label class="text-gray-500">Company or Freelance?</label>
+                    <textarea name="" id="" cols="30" rows="5" class="border border-blue-500 rounded p-2 bg-black text-white w-full"></textarea>
+                </div>
+                <button class="bg-blue-500 w-full py-2 rounded mt-8 focus:outline-none hover:bg-blue-600">Submit</button>
+                <p class="text-xs text-gray-500 text-center">By pressing ‘Submit’, you agree to our <span class="underline">Terms of Service</span> and <span class="underline">Privacy Policy</span>.</p>
+            </div>
+        </div>
+    </div>
+    <p class="text-center text-sm text-gray-500 py-8">(c) 2020 THE PA SYSTEM LTD. ALL RIGHTS RESERVED. </p>
+    <script>
+        const nav = document.querySelector('#nav');
+        const togle = () =>{
+            nav.classList.toggle("-lg:hidden")
+        }
+    </script>
+</body>
+
+</html>

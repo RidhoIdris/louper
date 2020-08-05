@@ -1,0 +1,10 @@
+<svg id="Group_108" data-name="Group 108" xmlns="http://www.w3.org/2000/svg" width="86" height="86" viewBox="0 0 86 86">
+  <g id="Ellipse_1" data-name="Ellipse 1" fill="none" stroke="#4299e1" stroke-width="2">
+    <circle cx="43" cy="43" r="43" stroke="none"/>
+    <circle cx="43" cy="43" r="42" fill="none"/>
+  </g>
+  <g id="Group_102" data-name="Group 102" transform="translate(22 21)">
+    <path id="Path_76" data-name="Path 76" d="M1092.267,511.976a7.486,7.486,0,0,0-4.7-2.357l-1.206,1.117a6.365,6.365,0,0,1,4.707,11.027l-11.772,10.9a6.368,6.368,0,1,1-8.653-9.346l8.537-7.9a9,9,0,0,1,.273-1.831l-9.6,8.883a7.526,7.526,0,1,0,10.225,11.045l11.772-10.9A7.535,7.535,0,0,0,1092.267,511.976Z" transform="translate(-1067.45 -492.165)" fill="#fff" stroke="#4299e1" stroke-width="1"/>
+    <path id="Path_77" data-name="Path 77" d="M1098.1,513.244a6.365,6.365,0,0,1-4.707-11.027l11.772-10.9a6.368,6.368,0,1,1,8.652,9.346l-8.537,7.9a9.038,9.038,0,0,1-.273,1.831l9.6-8.884a7.526,7.526,0,1,0-10.226-11.045l-11.772,10.9a7.515,7.515,0,0,0,4.286,12.993Z" transform="translate(-1075.871 -488.47)" fill="#fff" stroke="#4299e1" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg id="Group_119" data-name="Group 119" xmlns="http://www.w3.org/2000/svg" width="86" height="86" viewBox="0 0 86 86">
+  <g id="Ellipse_1" data-name="Ellipse 1" fill="none" stroke="#4299e1" stroke-width="2">
+    <circle cx="43" cy="43" r="43" stroke="none"/>
+    <circle cx="43" cy="43" r="42" fill="none"/>
+  </g>
+  <g id="video-player-2" transform="translate(17.66 25.987)">
+    <path id="Path_20" data-name="Path 20" d="M22.06,27.747a1.05,1.05,0,0,0,1.1-.037l11.876-7.824a1.14,1.14,0,0,0,0-1.887L23.159,10.174a1.054,1.054,0,0,0-1.1-.037,1.127,1.127,0,0,0-.559.98V26.767A1.126,1.126,0,0,0,22.06,27.747Zm1.6-14.594,8.786,5.789-8.786,5.789Z" transform="translate(-1.488 -10)" fill="#4299e1"/>
+    <path id="Path_22" data-name="Path 22" d="M64.832,45.677H27.414V42.559a1.559,1.559,0,0,0-3.118,0v3.118H18.059a1.559,1.559,0,0,0,0,3.118H24.3v3.118a1.559,1.559,0,1,0,3.118,0V48.8H64.832a1.559,1.559,0,1,0,0-3.118Z" transform="translate(-16.5 -19.649)" fill="#4299e1"/>
+  </g>
+</svg>
