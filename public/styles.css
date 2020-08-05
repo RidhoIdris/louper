@@ -4,11 +4,11 @@
 
 @font-face {
     font-family: 'NeueHelvetica';
-    src: url('../public/fonts/HelveticaNeueLTPro-Bd/font.woff')format("woff");
+    src: url('../fonts/HelveticaNeueLTPro-Bd/font.woff')format("woff");
     font-weight : 700
 }
 @font-face {
     font-family: 'NeueHelvetica';
-    src: url('../public/fonts/HelveticaNeueLTPro-Roman/font.woff')format("woff");
+    src: url("../fonts/HelveticaNeueLTPro-Roman/font.woff")format("woff");
     font-weight : 500
 }
