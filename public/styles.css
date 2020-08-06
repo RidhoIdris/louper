@@ -12,3 +12,22 @@
     src: url("../fonts/HelveticaNeueLTPro-Roman/font.woff")format("woff");
     font-weight : 500
 }
+
+.choices__inner{
+    background-color: black !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    border: 1px solid #4299e1 !important;
+    font-size: 100% !important;
+    height: 16px !important;
+ }
+ .is-focused .choices__inner, .is-open .choices__inner{
+     border: 1px solid #ecc94b !important;
+ }
+ .choices__list--dropdown{
+     background-color: black !important;
+     border: 1px solid #ecc94b !important;
+ }
+ .choices__list--dropdown .choices__item--selectable.is-highlighted{
+     background-color : #4299e1 !important
+ }

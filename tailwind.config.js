@@ -49,6 +49,25 @@ module.exports = {
         '90vw' : '90vw',
         '100vw' : '100vw'
       },
+      colors:{
+        'brandblue': {
+          50: '#F6FAFE',
+          100: '#ECF5FC',
+          200: '#D0E6F8',
+          300: '#B3D6F3',
+          400: '#7BB8EA',
+          500: '#4299E1',
+          600: '#3B8ACB',
+          700: '#285C87',
+          800: '#1E4565',
+          900: '#142E44',
+        },
+        'bodygray': '#EBEBEB',
+        'formgray': '#888888',
+        'formdisclaimer': '#6F6F6F',
+
+
+      }
     },
   },
   variants: [
